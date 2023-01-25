@@ -3,7 +3,7 @@ export const AddCategory = ({ onNewCategory }) => {
   const [inputValue, setInputValue] = useState("");
   const onInputChange = ({ target }) => {
     //   console.log(event.target.value);
-    console.log(setInputValue);
+    // console.log(setInputValue);
     setInputValue(target.value);
   };
   const onSubmit = (event) => {
